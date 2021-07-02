@@ -95,6 +95,14 @@ body main section a:hover {
     background-color: grey;
 }
 
+body main section:nth-of-type(odd) a:hover + p {
+    color: white;
+}
+
+body main section:nth-of-type(even) a:hover + p {
+    color: black;
+}
+
 body main section p {
     font-family: 'Work Sans', sans-serif;
 }
