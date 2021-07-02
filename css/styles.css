@@ -78,7 +78,7 @@ body main section:nth-of-type(odd) a{
     text-transform: uppercase;
     border: 1px solid black;
     padding: 8px 15px;
-    margin-left: 77px;
+    margin-left: 5.5%;
 }
 
 body main section:nth-of-type(even) a {
@@ -88,7 +88,7 @@ body main section:nth-of-type(even) a {
     text-transform: uppercase;
     border: 1px solid black;
     padding: 8px 15px;
-    margin-left: 77px;
+    margin-left: 5.5%;
 }
 
 body main section a:hover {
