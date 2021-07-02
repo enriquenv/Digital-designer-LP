@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+header {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+/* main {
+    min-height: 100vh;
+} */
+
+h2 {
+    text-align: center;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 6em;
+}
+
+body main section > * {
+    padding-top: 10px;
+    padding-left: 80px
+}
+
+body main section:nth-of-type(1) {
+    background-image: url(/img/portfolio2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: .5; */
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+body main section:nth-of-type(2) {
+    background-image: url(/img/portfolio3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+body main section:nth-of-type(3) {
+    /* background-color: black; */
+    background-image: url(/img/portfolio4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+body main section:nth-of-type(4) {
+    /* background-color: black; */
+    background-image: url(/img/portfolio5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+body main section h3 {
+    font-size: 4em;
+}
+
+body main section:nth-of-type(odd) a{
+    color: white;
+    text-decoration: unset;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 8px 15px;
+    margin-left: 77px;
+}
+
+body main section:nth-of-type(even) a {
+    color: black;
+    text-decoration: unset;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 8px 15px;
+    margin-left: 77px;
+}
+
+body main section a:hover {
+    background-color: grey;
+}
+
+body main section p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body main section p:last-of-type{
+    font-size: 15em;
+    color: #666;
+    text-align: end;
+    padding-right: 20px;
+}
+
+body main article {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 10px;
+}
+
+body main article p {
+    color: #9e9e9e;
+    font-size: 1.5em;
+    padding-left: 45%;
+    padding-right: 10%;
+}
+
+body main article a {
+    color: white;
+    padding-left: 45%;
+    font-size: 4em;
+    text-decoration: unset;
+}
+
+body main article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 10em;
+    padding-top: 70px;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: unset;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer div {
+    margin-left: 50%;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+footer div {
+  width: 50px;
+  height: 50px;
+  animation: heartbeat 1s infinite;
+}
